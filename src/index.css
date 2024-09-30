@@ -18,12 +18,12 @@ footer{
   border: 3px solid black;
 }
 .card-header{
-  background-color: black !important;
+  background-color: grey !important;
   color: orangered !important;
  
 }
 .card-footer{
-  background-color: black !important;
+  background-color: grey !important;
  
 }
 img{

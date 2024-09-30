@@ -18,7 +18,7 @@ const Home = () => {
   const fetchData = async () => {
     try {
       const res = await axios.get(
-        "https://backend-6tc0.onrender.com/api/products/get"
+        "https://backend-6tc0.onrender.com/api/products/"
       );
       setProducts(res.data.result);
     } catch (error) {
